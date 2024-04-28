@@ -1,0 +1,10 @@
+import random
+alea="+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+
+aleat1=''
+
+contra=int(input('Cuantos caracteres deseas en tu contraseña: '))
+for i in range(contra):
+    aleat1+=random.choice(alea)  
+
+print(aleat1)
